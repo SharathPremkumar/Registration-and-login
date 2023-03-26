@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home-Code JAva</title>
+<link rel="stylesheet" type="text/css"
+	href="/webjars/bootstrap/css/bootstrap.min.css" />
+<style>
+body, html {
+	height: 100%;
+}
+
+body {
+	background-image: url('img/pexels-photo-267885.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+h3 {
+	display: table;
+	text-align: ceter;
+	margin: 5px auto 5px auto;
+	background-color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+</style>
+</head>
+<body>
+	<div class="container text-center">
+		<div>
+
+			<h1 style="color: yellow;">Welcome to Skill-Lync Internship</h1>
+			<br></br>
+		</div>
+		<div>
+			<h3>
+				<a th:href="@{/users}">List of All Interns</a>
+			</h3>
+			<br></br>
+			<h3>
+				<a th:href="@{/register}">Register</a>
+			</h3>
+
+			<div>
+				<h4 style="color: white">Please register if you are new user</h4>
+				<br></br>
+			</div>
+
+			<h3>
+				<a th:href="@{/Login}">Login</a>
+			</h3>
+		</div>
+		<div>
+
+			<h4 style="color: white;">Please Login if already registered</h4>
+		</div>
+	</div>
+
+
+</body>
+</html>

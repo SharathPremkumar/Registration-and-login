@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Home-Code JAva</title>
+<link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+
+<style >
+
+body, html {
+	height: 100%;
+}
+
+body {
+	background-image: url('img/pexels-photo-267885.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+p{
+color: white;
+}
+</style>
+</head>    
+<body>
+	<div class="container text-center">
+		<div>
+			<h1 style="color:Gold;">INTERNSHIP</h1>
+		</div>
+		<form th:action="@{/logout}" th:object="${user}">
+			<p>
+                Welcome: <b>[[${#request.userPrincipal.principal.fullName}]]</b>
+            </p>
+           <input type="submit" value="Sign Out" />
+		</form>
+	</div>
+</body>
+</html>

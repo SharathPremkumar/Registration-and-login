@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Succeeded-Code JAva</title>
+<link rel="stylesheet" type="text/css"
+	href="/webjars/bootstrap/css/bootstrap.min.css" />
+<style>
+body, html {
+	height: 100%;
+}
+
+body {
+	background-image: url('img/pexels-photo-267885.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+h3 {
+	display: table;
+	text-align: ceter;
+	margin: 5px auto 5px auto;
+	background-color: white;
+	border-radius: 5px 5px 5px 5px;
+	color: darkgreen;
+}
+h4 {
+	display: table;
+	text-align: ceter;
+	margin: 5px auto 5px auto;
+	background-color: white;
+	border-radius: 5px 5px 5px 5px;
+	color: darkgreen;
+}
+</style>
+</head>
+<body>
+	<div class="container text-center">
+		<div>
+			<h3 >You have signed up successfully</h3><br></br>
+			<h4>
+				<a th:href="@{/Login}">Click here to login</a>
+			</h4>
+		</div>
+
+	</div>
+
+
+</body>
+</html>
