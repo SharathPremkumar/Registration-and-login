@@ -132,6 +132,8 @@ Enter the username (email) and password of the user you have registered previous
  <img width=350px height=200px src="https://user-images.githubusercontent.com/124582366/235209147-4e430030-a5a0-4884-bcf6-c0252a83e4ce.png" alt="Project logo"></a>
 </p>
 
+Now click on the logout button to go back to the home page.
+
 After going back to home page you can check for one more link available. that is "list all interns". once after clicking on that link it will redirect in to new page as shown below.
 
 <p align="center">
