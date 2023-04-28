@@ -110,7 +110,7 @@ next you can login from after the successful registration in the redirect page. 
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=600px height=600px src="https://user-images.githubusercontent.com/124582366/235209312-5400a05f-4f6b-4363-8d90-ab07e2ce9a26.png" alt="Project logo"></a>
+ <img width=350px height=200px src="https://user-images.githubusercontent.com/124582366/235209312-5400a05f-4f6b-4363-8d90-ab07e2ce9a26.png" alt="Project logo"></a>
 </p>
 
 Now you can test the login function. Go to the homepage and click Login link, you should see the default login page appears as follows:
@@ -129,15 +129,14 @@ Enter the username (email) and password of the user you have registered previous
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=600px height=600px src="https://user-images.githubusercontent.com/124582366/235209147-4e430030-a5a0-4884-bcf6-c0252a83e4ce.png" alt="Project logo"></a>
+ <img width=350px height=200px src="https://user-images.githubusercontent.com/124582366/235209147-4e430030-a5a0-4884-bcf6-c0252a83e4ce.png" alt="Project logo"></a>
 </p>
 
 After going back to home page you can check for one more link available. that is "list all interns". once after clicking on that link it will redirect in to new page as shown below.
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=600px height=600px src="
-https://user-images.githubusercontent.com/124582366/235209405-dce39b0f-65a4-46a6-a9eb-3a1021411d10.png" alt="Project logo"></a>
+ <img width=600px height=600px src="https://user-images.githubusercontent.com/124582366/235209405-dce39b0f-65a4-46a6-a9eb-3a1021411d10.png" alt="Project logo"></a>
 </p>
 
 You can also use back to home button to go back to home page.
