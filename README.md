@@ -39,10 +39,11 @@ In order to achieve this functionality we have developed the code in such a way 
 This serve a full stack web application project, with the help of HTML and Thymeleaf we have designed web pages with good asthetics, but I have not used CSS because I have no idea about it to create a best user interface. Eventhough it is not bad User will enjoy withe existing user interface.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
+- first create a database with the name used in the datasource url in the application properties.
 - When you run the code on the eclipse IDE, spring boot application will be get started with the server port number.
 - With the help of Hibernate JPA database will also be get connected.
-- Use that port number with http url and test with all end point connectors that are available in Controller class.
-- See [deployment](#deployment) for notes on how to deploy the project on a live system.
+- Use that port number with http url and test web application.
+- See [deployment](#deployment) for notes on how to deploy the project on a web page.
 
 ### Prerequisites
 - First You need to download all the softwares provided links in the [Built Using](#built_using) section.
@@ -67,9 +68,12 @@ This serve a full stack web application project, with the help of HTML and Thyme
 
 
 ## 🔧 Running the tests <a name = "tests"></a>
-As we discussed earlier for testing the developed code we are using Postman API platform, there use the end point connectors that are defined in the connector class and perform the CRUD operation 
-Data can be saved using Post method and write the data in the body using JSON format.
-Data can be retrieved, updated and deleted using GET method through JSON format.
+Since the code is readily available, download the zip file and unzip it. next open the project file from eclipse IDE.
+Now, you can run this Spring Boot Project (using eclipse IDE), and access the web application at this URL http://localhost:8080, you should see the homepage appears as shown below:
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=800px height=800px src="https://user-images.githubusercontent.com/124582366/235171894-30dc6dd2-53b4-4729-a505-0174345b62a6.png" alt="Project logo"></a>
+</p>
 
 ## 🎈 Usage <a name="usage"></a>
 The main Use of this is a complete backend code where a frontend developer can use the end point connectors from here and design the web page using whatever frontend technolgies to serve a better user interface to the user. but for functionality testing we have used Postman API platform and successfully tested and finalized all the API's.
