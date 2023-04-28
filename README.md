@@ -19,7 +19,7 @@
 
 ---
 
-<p align="center">This is a JAVA Backend Project By using Spring boot, MySQL DataBase & Hibernate JPA, Where Admin Can Add the Create the Employee data, Retrieve the data, Update and delete the data. This CRUD operation is tested using postman, by using the end point connectors of this backend code we can connect with the frontend User Interface applications.
+<p align="center">This is a JAVA Fullstack Project by using HTML, Spring boot, MySQL DataBase, Hibernate JPA, Spring security & Thymeleaf template engine because I don't know Javascript and CSS to develop frontend part. Where it is developed for the Internship students Registration and login application. Here a student can Register in the website and after registration he/she can login with their credentials to redirect to their individual web pages.
     <br> 
 </p>
 
@@ -33,10 +33,10 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-The purpose of this project is to save the employee credentials in the web application, this project provides the features where an Admin or HR manager can create each individual employee details and retrieve them whenever it is required to them.
+The purpose of this project is to save the Internship Students details in the web application, this project provides the features where student can Register in the website and after registration he/she can login with their credentials to redirect to their individual web pages.
 In order to achieve this functionality we have developed the code in such a way that, user can perform each individual operation using different API's.
 
-This may not serve a full stack we application project, but this is a complete backend code where a frontend developer can use the end point connectors from here and design the web page using whatever frontend technolgies to serve a better user interface to the user. but for functionality testing we have used Postman API platform and successfully tested and finalized all the API's.
+This serve a full stack web application project, with the help of HTML and Thymeleaf we have designed web pages with good asthetics, but I have not used CSS because I have no idea about it to create a best user interface. Eventhough it is not bad User will enjoy withe existing user interface.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 - When you run the code on the eclipse IDE, spring boot application will be get started with the server port number.
@@ -52,7 +52,7 @@ This may not serve a full stack we application project, but this is a complete b
 
 ### Installing
 
-- Fist Click ond jdk URL and Install it and Then install eclipse
+- Fist Click ond jdk URL and Install it and Then install eclipse Enterprise application
 - After Completing the download start the SetUP 
 - After SetUp has been Started you need to select on Custom and click on Next
 - You can see the Available Products
@@ -62,7 +62,6 @@ This may not serve a full stack we application project, but this is a complete b
 - After completing the SetUp click on next and on Product Configuration Click on Next 
 - Now Type and networking will be visible and there you Check for port no 3306 and keep the default and Click on next 
 - Next set Root password keep Clicking on Next and Execute Your MySQL installation will be completed .
-- Then Download the MYSQL Connectors Jar file and JCalendar Jar file from Same MySQL Website   and then Extract it and keep it in one folder.
 - Install the Tomcat Server and check the installation using the http url in google once.
 - Next install Postman and ready to start testing the API's.
 
@@ -85,7 +84,7 @@ First Extract the file from GitHub and import it into eclipse IDE and you can ru
 - [Eclipse](https://eclipseide.org/) - Eclipse IDE
 - [Apache Tomcat](https://tomcat.apache.org/) - Tomcat Server
 - [Spring.io](https://start.spring.io/) - Spring Initializer
-- [Postman](https://www.postman.com/downloads/) - Postman API Platform
+
 
 ## ✍️ Authors <a name = "authors"></a>
 - [Sharath P](https://github.com/SharathPremkumar) - FSD
