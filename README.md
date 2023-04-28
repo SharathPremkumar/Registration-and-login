@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=400px src="https://user-images.githubusercontent.com/124582366/235171894-30dc6dd2-53b4-4729-a505-0174345b62a6.png" alt="Project logo"></a>
+ <img width=900px height=800px src="https://user-images.githubusercontent.com/124582366/235171894-30dc6dd2-53b4-4729-a505-0174345b62a6.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Regestration-and-login</h3>
